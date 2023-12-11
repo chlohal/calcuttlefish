@@ -1,0 +1,13 @@
+[package]
+name = "calcuttlefish"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.31"
+crossterm = "0.27.0"
+icalendar = { version = "0.15.8", features = ["parser", "chrono-tz"] }
+itertools = "0.11.0"
+notify = "6.1.1"
+ratatui = "0.24.0"
+walkdir = "2.4.0"
